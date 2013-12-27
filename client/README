@@ -1,0 +1,27 @@
+
+
+idea from ctorrent
+
+.种子文件解析
+torrent.h
+torrent.cpp
+
+
+.tracker初始化
+tracker.cpp
+tracker.h
+
+.和peer通信
+peers.cpp
+peers.h
+
+
+
+
+
+
+
+
+
+
+
