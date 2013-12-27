@@ -38,14 +38,14 @@ endif
 
 DIR = $(shell pwd)
 
-APP = dwjtorrent
+APP = udtorrent
 
 all: $(APP)
 
 %.o: %.cpp
 	$(C++) $(CCFLAGS) $< -c
 
-dwjtorrent: main.o nat.o tracker.o peer.o torrent.o
+udtorrent: main.o nat.o tracker.o peer.o torrent.o bencode.o
 	$(C++) $^ -o $@ $(LDFLAGS)
 
 clean:
